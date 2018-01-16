@@ -62,5 +62,4 @@ typings/
 *-lock.json
 
 #build folder
-packages/**/lib/
-demo/
+lib/
