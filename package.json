@@ -1,5 +1,5 @@
 {
-  "name": "@abalmush/request",
+  "name": "@abalmush/fetch-request",
   "version": "1.0.0",
   "description": "Core utils, fetch wrapper, querystring utils",
   "main": "lib/index.js",
