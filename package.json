@@ -1,5 +1,5 @@
 {
-  "name": "@abalmush/fetch-request",
+  "name": "@abalmush/request",
   "version": "1.0.0",
   "description": "Core utils, fetch wrapper, querystring utils",
   "main": "lib/index.js",
@@ -8,6 +8,11 @@
     "prepublish": "npm run test && tsc",
     "test": "NODE_ENV=development nyc ./node_modules/mocha/bin/mocha -r ts-node/register src/__tests__/**/*.test.ts"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abalmus/fetch-request.git"
+  },
+  "keywords": ["fetch", "request", "client", "http"],
   "author": "Andrei Balmus <abalmush@gmail.com> (http://abalmus.com)",
   "license": "MIT",
   "dependencies": {
