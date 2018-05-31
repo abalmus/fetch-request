@@ -139,6 +139,7 @@ export class FetchClient {
     private __doFetch(url: string, options: RequestInit) {
         return fetch(url, options)
             .then(validateHttpResponse)
+            .catch(error => error);
     }
 
     private __applyMethodSpecificHeaders(method) {
