@@ -1,6 +1,6 @@
 {
-  "name": "@abalmush/request",
-  "version": "1.0.0",
+  "name": "@abalmus/request",
+  "version": "1.2.0",
   "description": "Core utils, fetch wrapper, querystring utils",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -10,9 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/abalmus/fetch-request.git"
+    "url": "git+https://github.com/abalmus/fetch-request.git"
   },
-  "keywords": ["fetch", "request", "client", "http"],
+  "keywords": [
+    "fetch",
+    "request",
+    "client",
+    "http"
+  ],
   "author": "Andrei Balmus <abalmush@gmail.com> (http://abalmus.com)",
   "license": "MIT",
   "dependencies": {
@@ -49,5 +54,12 @@
     ],
     "sourceMap": true,
     "instrument": true
+  },
+  "bugs": {
+    "url": "https://github.com/abalmus/fetch-request/issues"
+  },
+  "homepage": "https://github.com/abalmus/fetch-request#readme",
+  "directories": {
+    "lib": "lib"
   }
 }
